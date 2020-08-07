@@ -1,4 +1,4 @@
-.header {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,5 +9,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #579C87;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=styles.css.map */

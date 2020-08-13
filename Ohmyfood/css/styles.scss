@@ -2,21 +2,39 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    background-color: green($color: #fff);
+    background-color:whitesmoke;
 }
 header{
     display: flex;
-    align-items: center;
+    align-items: center; color: #FCCA46;
     justify-content: center;
     background-color: #579C87;
     text-decoration: none;
     padding: 20px 0;
 }
-section{
-    display: flex;
+.section{
+    justify-content: center;
     flex-direction: column;
 }
 a{
     text-align: center;
     text-decoration: none;
+}
+.carte_1{
+    background-color: #FCDEDA;
+}
+.carte_2{
+    background-color: #FFF5FE;
+}
+.carte_3{
+    background-color: #F9F9F9;
+}
+.carte_4{
+    background-color: #FDFFFD;
+}
+.aurevoir{
+    background-color: #579C87;
+    align-items: center;
+    justify-content: center;
+    color: #FCCA46;
 }

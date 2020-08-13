@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  background-color: 255;
+  background-color: whitesmoke;
 }
 
 header {
@@ -12,6 +12,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #FCCA46;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -20,8 +21,10 @@ header {
   padding: 20px 0;
 }
 
-section {
-  display: inline-flexbox;
+.section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -31,5 +34,32 @@ section {
 a {
   text-align: center;
   text-decoration: none;
+}
+
+.carte_1 {
+  background-color: #FCDEDA;
+}
+
+.carte_2 {
+  background-color: #FFF5FE;
+}
+
+.carte_3 {
+  background-color: #F9F9F9;
+}
+
+.carte_4 {
+  background-color: #FDFFFD;
+}
+
+.aurevoir {
+  background-color: #579C87;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FCCA46;
 }
 /*# sourceMappingURL=styles.css.map */

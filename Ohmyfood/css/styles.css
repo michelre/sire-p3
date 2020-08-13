@@ -21,14 +21,18 @@ header {
   padding: 20px 0;
 }
 
+#wrapper {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 a {
@@ -38,18 +42,26 @@ a {
 
 .carte_1 {
   background-color: #FCDEDA;
+  width: 500px;
+  height: 500px;
 }
 
 .carte_2 {
   background-color: #FFF5FE;
+  width: 500px;
+  height: 500px;
 }
 
 .carte_3 {
   background-color: #F9F9F9;
+  width: 500px;
+  height: 500px;
 }
 
 .carte_4 {
   background-color: #FDFFFD;
+  width: 500px;
+  height: 500px;
 }
 
 .aurevoir {
@@ -61,5 +73,11 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FCCA46;
+}
+
+h2 h3 a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=styles.css.map */

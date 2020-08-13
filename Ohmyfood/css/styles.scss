@@ -12,9 +12,13 @@ header{
     text-decoration: none;
     padding: 20px 0;
 }
+#wrapper{
+    width:auto;
+    height:auto;
+    display: flex;
+}
 .section{
     justify-content: center;
-    flex-direction: column;
 }
 a{
     text-align: center;
@@ -22,19 +26,30 @@ a{
 }
 .carte_1{
     background-color: #FCDEDA;
+    width: 500px;
+    height: 500px;
 }
 .carte_2{
     background-color: #FFF5FE;
+    width: 500px;
+    height: 500px;
 }
 .carte_3{
     background-color: #F9F9F9;
+    width: 500px;
+    height: 500px;
 }
 .carte_4{
     background-color: #FDFFFD;
+    width: 500px;
+    height: 500px;
 }
 .aurevoir{
     background-color: #579C87;
     align-items: center;
     justify-content: center;
     color: #FCCA46;
+}
+h2 h3 a{
+    align-self: center;
 }

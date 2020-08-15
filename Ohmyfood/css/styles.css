@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  background-color: whitesmoke;
+  background-color: #fff;
 }
 
 header {
@@ -12,13 +12,16 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FCCA46;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #579C87;
   text-decoration: none;
   padding: 20px 0;
+}
+
+h1 {
+  color: #FCCA46;
 }
 
 #wrapper {

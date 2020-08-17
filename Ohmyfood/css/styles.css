@@ -1,3 +1,4 @@
+/*Variables*/
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -15,13 +16,29 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #579C87;
+  background-color: #579c87;
   text-decoration: none;
   padding: 20px 0;
 }
 
+.section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+
 h1 {
   color: #FCCA46;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
 }
 
 #wrapper {
@@ -30,8 +47,8 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .section {
@@ -49,15 +66,45 @@ a {
   width: 500px;
   height: 500px;
   margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .carte_1 {
-  background-color: #FCDEDA;
+  background-color: #FCDFDB;
   margin-right: 20px;
+}
+
+.carte_1 h2 {
+  color: #3E141A;
+  font-family: niconne, cursive;
+}
+
+.carte_1 h3 {
+  font-family: cursive;
+  color: #3E141A;
 }
 
 .carte_2 {
   background-color: #FFF5FE;
+  margin-right: 20px;
+}
+
+.carte_2 h2 {
+  color: #C57A66;
+  font-family: #B1709E;
+}
+
+.carte_2 h3 {
+  color: #D8852E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .carte_3 {
@@ -65,24 +112,55 @@ a {
   margin-right: 20px;
 }
 
+.carte_3 h2 {
+  color: #1158E9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carte_3 h3 {
+  color: #3A9DFA;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .carte_4 {
   background-color: #FDFFFD;
+  margin-right: 20px;
+}
+
+.carte_4 h2 {
+  color: #61B04D;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carte_4 h3 {
+  color: #73BF57;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .aurevoir {
   background-color: #579C87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   color: #FCCA46;
+  border: 3px solid #579C87;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-h2 h3 a {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+  background-color: #579C87;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #FCCA46;
 }
 /*# sourceMappingURL=styles.css.map */

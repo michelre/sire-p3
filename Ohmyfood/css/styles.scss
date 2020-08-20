@@ -17,6 +17,7 @@ header{
     background-color: $primary;
     text-decoration: none;
     padding: 20px 0;
+    height: 40px;
 }
 .section{
     justify-content: center;
@@ -102,21 +103,31 @@ a{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
-
 .aurevoir{
     background-color: #579C87;
     color: #FCCA46;
     border: 3px solid #579C87;
     border-radius: 20px;
+    margin-left: 40%;
     margin-bottom: 20px;
+    font-size:1.5em;
+    inline-size: 350px;
+    height: 40px;
 }
 footer{
     display: flex;
-    flex-direction: initial;
+    flex-direction: row;
     background-color: #579C87;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     a{
         color: #FCCA46;
+        font-size: 1.5em;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

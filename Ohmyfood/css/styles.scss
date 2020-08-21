@@ -38,7 +38,6 @@ a{
     max-width:1024px;
     margin: auto;
     display: flex;
-    flex-wrap: nowrap;
 }
 .section{
     justify-content: center;
@@ -48,12 +47,12 @@ a{
     text-decoration: none;
 }
 .carte{
+    display: flex;
     width: 500px;
     height: 500px;
     margin-top: 20px;
     align-items: center;
-    display: flex;
-    justify-content:center;
+    justify-content:center;  
 }
 .carte_1 {
     background-color: #FCDFDB;

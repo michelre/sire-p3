@@ -178,11 +178,131 @@ footer a {
   margin-right: 10px;
 }
 
-/*LA NOTE ENCHANTEE*/
+/*LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEELA NOTE ENCHANTEE*/
 .section_menu_1 {
+  background-color: #FCDFDB;
+  margin: 500px;
+}
+
+.section_menu_1 .titre_carte {
+  text-justify: center;
+  text-align: center;
+}
+
+.section_menu_1 h3 {
+  text-align: center;
+}
+
+.section_menu_1 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #FCDFDB;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section_menu_1 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE*/
+.section_menu_2 {
+  background-color: #FFF5FE;
+  margin: 500px;
+}
+
+.section_menu_2 .titre_carte {
+  text-justify: center;
+  text-align: center;
+}
+
+.section_menu_2 h3 {
+  text-align: center;
+}
+
+.section_menu_2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section_menu_2 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES*/
+.section_menu_3 {
+  background-color: #F9F9F9;
+  margin: 500px;
+}
+
+.section_menu_3 .titre_carte {
+  text-justify: center;
+  text-align: center;
+}
+
+.section_menu_3 h3 {
+  text-align: center;
+}
+
+.section_menu_3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section_menu_3 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT*/
+.section_menu_4 {
+  background-color: #FDFFFD;
+  margin: 500px;
+}
+
+.section_menu_4 .titre_carte {
+  text-justify: center;
+  text-align: center;
+}
+
+.section_menu_4 h3 {
+  text-align: center;
+}
+
+.section_menu_4 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section_menu_4 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_carte {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

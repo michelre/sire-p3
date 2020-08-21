@@ -34,8 +34,8 @@ a{
     text-align: center;
     text-decoration: none;
 }
-#wrapper{
-    max-width:1024px;
+.wrapper{
+    max-width:auto;
     margin: auto;
     display: flex;
 }
@@ -48,15 +48,16 @@ a{
 }
 .carte{
     display: flex;
-    width: 500px;
+    width: 700px;
     height: 500px;
-    margin-top: 20px;
+    margin:20px 20px 20px 20px;
     align-items: center;
-    justify-content:center;  
+    justify-content:center; 
 }
 .carte_1 {
     background-color: #FCDFDB;
     margin-right: 20px;
+    box-shadow: 1 1 ;
     h2{
         color: #3E141A;
         font-family: niconne, cursive;

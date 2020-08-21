@@ -177,4 +177,12 @@ footer a {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+/*LA NOTE ENCHANTEE*/
+.section_menu_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FCDFDB;
+}
 /*# sourceMappingURL=styles.css.map */

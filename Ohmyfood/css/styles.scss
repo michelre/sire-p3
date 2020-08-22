@@ -4,6 +4,7 @@ $secondary:#FCDFDB;
 $tertiary:#FFF5FE;
 $quaternary:#F9F9F9;
 $colorfive:#FDFFFD;
+/*PAGE D'ACCEUIL--PAGE D'ACCUEIL--PAGE D'ACCEUIL--PAGE D'ACCUEIL*/
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,14 +20,6 @@ header{
     padding: 20px 0;
     height: 40px;
 }
-.section{
-    justify-content: center;
-}
-a{
-    text-align: center;
-    text-decoration: none;
-}
-
 h1{
     color: #FCCA46;
 }
@@ -39,6 +32,7 @@ a{
     margin: auto;
     display: flex;
 }
+/*SECTION SECTION SECTION SECTION SECTION*/
 .section{
     justify-content: center;
 }
@@ -46,6 +40,14 @@ a{
     text-align: center;
     text-decoration: none;
 }
+.section_menu_1{
+    font-family: niconne cursive;
+}
+/*MENU MENU MENU MENU MENU*/
+.main_carte{
+    text-align: center;
+}
+/*CARTE CARTE CARTE CARTE CARTE CARTE*/
 .carte{
     display: flex;
     width: 700px;
@@ -54,19 +56,20 @@ a{
     align-items: center;
     justify-content:center; 
 }
+/*MENU 1 MENU 1 MENU 1 MENU 1*/
 .carte_1 {
     background-color: #FCDFDB;
     margin-right: 20px;
-    box-shadow: 1 1 ;
     h2{
         color: #3E141A;
-        font-family: niconne, cursive;
+        font-family: Arial, Helvetica, sans-serif;
     }
     h3{
-        font-family:cursive;
+        font-family: arial cursive;
         color: #3E141A;
     }
 }
+/*MENU 2 MENU 2 MENU 2 MENU 2*/
 .carte_2{
     background-color: #FFF5FE;
     margin-right:20px;
@@ -79,6 +82,7 @@ a{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
+/*MENU 3 MENU 3 MENU 3 MENU 3*/
 .carte_3{
     background-color: #F9F9F9;
     margin-right: 20px;
@@ -91,6 +95,7 @@ a{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 }
+/*MENU 4 MENU 4 MENU 4 MENU 4*/
 .carte_4{
     background-color: #FDFFFD;
     margin-right: 20px;
@@ -103,6 +108,7 @@ a{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
+/*PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT*/
 .aurevoir{
     background-color: #579C87;
     color: #FCCA46;
@@ -114,6 +120,7 @@ a{
     inline-size: 350px;
     height: 40px;
 }
+/*FOOTER FOOTER FOOTER FOOTER FOOTER*/
 footer{
     display: flex;
     flex-direction: row;
@@ -207,6 +214,4 @@ footer{
         display: flex;
     }
 }
-.main_carte{
-    text-align: center;
-}
+/*MENTIONS LEGALES MENTIONS LEGALES MENTIONS LEGALES*/ 

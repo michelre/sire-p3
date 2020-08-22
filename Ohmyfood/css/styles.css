@@ -1,4 +1,5 @@
 /*Variables*/
+/*PAGE D'ACCEUIL--PAGE D'ACCUEIL--PAGE D'ACCEUIL--PAGE D'ACCUEIL*/
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -22,17 +23,6 @@ header {
   height: 40px;
 }
 
-.section {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-a {
-  text-align: center;
-  text-decoration: none;
-}
-
 h1 {
   color: #FCCA46;
 }
@@ -50,6 +40,7 @@ a {
   display: flex;
 }
 
+/*SECTION SECTION SECTION SECTION SECTION*/
 .section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -61,6 +52,16 @@ a {
   text-decoration: none;
 }
 
+.section_menu_1 {
+  font-family: niconne cursive;
+}
+
+/*MENU MENU MENU MENU MENU*/
+.main_carte {
+  text-align: center;
+}
+
+/*CARTE CARTE CARTE CARTE CARTE CARTE*/
 .carte {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,23 +77,23 @@ a {
           justify-content: center;
 }
 
+/*MENU 1 MENU 1 MENU 1 MENU 1*/
 .carte_1 {
   background-color: #FCDFDB;
   margin-right: 20px;
-  -webkit-box-shadow: 1 1;
-          box-shadow: 1 1;
 }
 
 .carte_1 h2 {
   color: #3E141A;
-  font-family: niconne, cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .carte_1 h3 {
-  font-family: cursive;
+  font-family: arial cursive;
   color: #3E141A;
 }
 
+/*MENU 2 MENU 2 MENU 2 MENU 2*/
 .carte_2 {
   background-color: #FFF5FE;
   margin-right: 20px;
@@ -108,6 +109,7 @@ a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*MENU 3 MENU 3 MENU 3 MENU 3*/
 .carte_3 {
   background-color: #F9F9F9;
   margin-right: 20px;
@@ -123,6 +125,7 @@ a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*MENU 4 MENU 4 MENU 4 MENU 4*/
 .carte_4 {
   background-color: #FDFFFD;
   margin-right: 20px;
@@ -138,6 +141,7 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT*/
 .aurevoir {
   background-color: #579C87;
   color: #FCCA46;
@@ -150,6 +154,7 @@ a {
   height: 40px;
 }
 
+/*FOOTER FOOTER FOOTER FOOTER FOOTER*/
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,7 +307,5 @@ footer a {
   display: flex;
 }
 
-.main_carte {
-  text-align: center;
-}
+/*MENTIONS LEGALES MENTIONS LEGALES MENTIONS LEGALES*/
 /*# sourceMappingURL=styles.css.map */

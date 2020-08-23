@@ -33,27 +33,21 @@ a {
 }
 
 .wrapper {
-  max-width: auto;
-  margin: auto;
+  max-width: width 1024px;
+  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /*SECTION SECTION SECTION SECTION SECTION*/
-.section {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-a {
-  text-align: center;
-  text-decoration: none;
-}
-
 .section_menu_1 {
   font-family: niconne cursive;
+  max-width: auto;
 }
 
 /*MENU MENU MENU MENU MENU*/
@@ -66,9 +60,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 700px;
-  height: 500px;
-  margin: 20px 20px 20px 20px;
+  width: 500px;
+  height: 600px;
+  margin: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -145,7 +139,7 @@ a {
 .aurevoir {
   background-color: #579C87;
   color: #FCCA46;
-  border: 3px solid #579C87;
+  border: 1px solid #579C87;
   border-radius: 20px;
   margin-left: 40%;
   margin-bottom: 20px;
@@ -170,7 +164,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   height: 40px;
   margin-left: 20px;
   margin-right: 20px;
@@ -186,7 +180,8 @@ footer a {
 /*LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEELA NOTE ENCHANTEE*/
 .section_menu_1 {
   background-color: #FCDFDB;
-  margin: 500px;
+  width: 800px;
+  margin: 20px;
 }
 
 .section_menu_1 .titre_carte {

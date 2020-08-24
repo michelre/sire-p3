@@ -33,7 +33,7 @@ a {
 }
 
 .wrapper {
-  max-width: width 1024px;
+  max-width: 1024px;
   padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,7 +47,6 @@ a {
 /*SECTION SECTION SECTION SECTION SECTION*/
 .section_menu_1 {
   font-family: niconne cursive;
-  max-width: auto;
 }
 
 /*MENU MENU MENU MENU MENU*/
@@ -100,7 +99,7 @@ a {
 
 .carte_2 h2 {
   color: #C57A66;
-  font-family: #B1709E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .carte_2 h3 {
@@ -153,7 +152,6 @@ a {
   margin-left: 40%;
   margin-bottom: 20px;
   font-size: 1.5em;
-  inline-size: 350px;
   height: 40px;
 }
 
@@ -194,7 +192,6 @@ footer a {
 }
 
 .section_menu_1 .titre_carte {
-  text-justify: center;
   text-align: center;
 }
 
@@ -226,7 +223,6 @@ footer a {
 }
 
 .section_menu_2 .titre_carte {
-  text-justify: center;
   text-align: center;
 }
 
@@ -258,7 +254,6 @@ footer a {
 }
 
 .section_menu_3 .titre_carte {
-  text-justify: center;
   text-align: center;
 }
 
@@ -290,7 +285,6 @@ footer a {
 }
 
 .section_menu_4 .titre_carte {
-  text-justify: center;
   text-align: center;
 }
 

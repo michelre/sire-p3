@@ -23,6 +23,18 @@ header{
 h1{
     color: #FCCA46;
 }
+h3{
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+li{
+    display: flex;
+} 
+
 a{
     text-align: center;
     text-decoration: none;
@@ -145,16 +157,6 @@ footer{
    .titre_carte{
         text-align: center;
     }
-    h3{
-        text-align: center;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-    li{
-        display: flex;
-    } 
 }
 /*LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE*/
 .section_menu_2{
@@ -164,16 +166,7 @@ footer{
    .titre_carte{
         text-align: center;
     }
-    h3{
-        text-align: center;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-    li{
-        display: flex;
-    }
+    
 }
 /*LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES*/ 
 .section_menu_3{
@@ -183,16 +176,7 @@ footer{
    .titre_carte{
         text-align: center;
     }
-    h3{
-        text-align: center;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-    li{
-        display: flex;
-    }
+    
 }
 /*LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT*/ 
 .section_menu_4{
@@ -202,15 +186,6 @@ footer{
    .titre_carte{
         text-align: center;
     }
-    h3{
-        text-align: center;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-    li{
-        display: flex;
-    }
+    
 }
 /*MENTIONS LEGALES MENTIONS LEGALES MENTIONS LEGALES*/ 

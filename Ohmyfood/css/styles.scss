@@ -25,6 +25,7 @@ h1{
 }
 h3{
     text-align: center;
+   
 }
 ul{
     display: flex;
@@ -33,11 +34,16 @@ ul{
 }
 li{
     display: flex;
+    text-align: left;
 } 
 
 a{
     text-align: center;
     text-decoration: none;
+}
+p {
+    width: 50%;
+    text-align: end;
 }
 .wrapper{
     max-width: 1024px;

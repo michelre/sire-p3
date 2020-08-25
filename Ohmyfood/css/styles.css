@@ -46,11 +46,17 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: left;
 }
 
 a {
   text-align: center;
   text-decoration: none;
+}
+
+p {
+  width: 50%;
+  text-align: end;
 }
 
 .wrapper {

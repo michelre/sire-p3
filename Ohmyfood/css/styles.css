@@ -46,6 +46,8 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   text-align: left;
 }
 
@@ -55,8 +57,8 @@ a {
 }
 
 p {
-  width: 50%;
-  text-align: end;
+  width: 100%;
+  text-justify: auto;
 }
 
 .wrapper {
@@ -69,11 +71,13 @@ p {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: 300px;
 }
 
 /*SECTION SECTION SECTION SECTION SECTION*/
 .section_menu_1 {
   font-family: niconne cursive;
+  margin: 600px;
 }
 
 /*MENU MENU MENU MENU MENU*/
@@ -86,9 +90,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   margin: 20px;
+  padding-right: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -97,13 +102,12 @@ p {
           justify-content: center;
   -webkit-box-shadow: 0 3px 3px 0;
           box-shadow: 0 3px 3px 0;
+  border-radius: 1px;
 }
 
 /*MENU 1 MENU 1 MENU 1 MENU 1*/
 .carte_1 {
   background-color: #FCDFDB;
-  margin-right: 20px;
-  border-radius: 2px;
 }
 
 .carte_1 h2 {
@@ -119,7 +123,6 @@ p {
 /*MENU 2 MENU 2 MENU 2 MENU 2*/
 .carte_2 {
   background-color: #FFF5FE;
-  margin-right: 20px;
 }
 
 .carte_2 h2 {
@@ -135,7 +138,6 @@ p {
 /*MENU 3 MENU 3 MENU 3 MENU 3*/
 .carte_3 {
   background-color: #F9F9F9;
-  margin-right: 20px;
 }
 
 .carte_3 h2 {
@@ -151,7 +153,6 @@ p {
 /*MENU 4 MENU 4 MENU 4 MENU 4*/
 .carte_4 {
   background-color: #FDFFFD;
-  margin-right: 20px;
 }
 
 .carte_4 h2 {

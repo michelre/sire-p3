@@ -34,6 +34,7 @@ ul{
 }
 li{
     display: flex;
+    flex-wrap: nowrap;
     text-align: left;
 } 
 
@@ -42,8 +43,8 @@ a{
     text-decoration: none;
 }
 p {
-    width: 50%;
-    text-align: end;
+    width: 100%;
+    text-justify: auto;
 }
 .wrapper{
     max-width: 1024px;
@@ -51,10 +52,12 @@ p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: 300px;
 }
 /*SECTION SECTION SECTION SECTION SECTION*/
 .section_menu_1{
     font-family: niconne cursive;
+    margin:600px;
 }
 /*MENU MENU MENU MENU MENU*/
 .main_carte{
@@ -63,18 +66,18 @@ p {
 /*CARTE CARTE CARTE CARTE CARTE CARTE*/
 .carte{
     display: flex;
-    width: 500px;
-    height: 600px;
-    margin:20px;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    padding-right: 20px;
     align-items: center;
     justify-content:center;
     box-shadow: 0 3px 3px 0; 
+    border-radius: 1px;
 }
 /*MENU 1 MENU 1 MENU 1 MENU 1*/
 .carte_1 {
     background-color: #FCDFDB;
-    margin-right: 20px;
-    border-radius: 2px;
     h2{
         color: #3E141A;
         font-family: Arial, Helvetica, sans-serif;
@@ -87,7 +90,6 @@ p {
 /*MENU 2 MENU 2 MENU 2 MENU 2*/
 .carte_2{
     background-color: #FFF5FE;
-    margin-right:20px;
     h2{
         color:#C57A66;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -100,7 +102,6 @@ p {
 /*MENU 3 MENU 3 MENU 3 MENU 3*/
 .carte_3{
     background-color: #F9F9F9;
-    margin-right: 20px;
     h2{
         color: #1158E9;
         font-family:Verdana, Geneva, Tahoma, sans-serif
@@ -113,7 +114,6 @@ p {
 /*MENU 4 MENU 4 MENU 4 MENU 4*/
 .carte_4{
     background-color: #FDFFFD;
-    margin-right: 20px;
     h2{
         color: #61B04D;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

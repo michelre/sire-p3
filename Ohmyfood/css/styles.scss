@@ -25,7 +25,6 @@ h1{
 }
 h3{
     text-align: center;
-   
 }
 ul{
     display: flex;
@@ -41,10 +40,6 @@ li{
 a{
     text-align: center;
     text-decoration: none;
-}
-p {
-    flex-basis: 100%;
-    text-justify: auto;
 }
 .wrapper{
     max-width: 1024px;
@@ -89,7 +84,7 @@ p {
 }
 /*MENU 2 MENU 2 MENU 2 MENU 2*/
 .carte_2{
-    background-color: #FFF5FE;
+    background-color:$tertiary;
     h2{
         color:#C57A66;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

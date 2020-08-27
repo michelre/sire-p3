@@ -56,12 +56,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  text-justify: auto;
-}
-
 .wrapper {
   max-width: 1024px;
   padding-bottom: 20px;

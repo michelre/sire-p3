@@ -1,0 +1,62 @@
+.main_carte{
+    text-align: center;
+}
+.carte{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content:center;
+    box-shadow: 0 3px 3px 0; 
+    border-radius: 1px;
+}
+.carte_1 {
+    background-color: #FCDFDB;
+    h2{
+        color: #3E141A;
+        font-family: niconne, cursive;
+        font-size: 2em;
+    }
+    h3{
+        font-family: niconne, cursive;
+        font-size: 2em;
+        color: #3E141A;
+    }
+}
+.carte_2{
+    background-color:$tertiary;
+    h2{
+        color:#C57A66;
+    }
+    h3{
+        color: #D8852E;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 2em;
+    }
+}
+.carte_3{
+    background-color: #F9F9F9;
+    h2{
+        color: #1158E9;
+        font-family: niconne, cursive, Arial, sans-serif;
+    }
+    h3{
+        color: #3A9DFA;
+        font-family: niconne, cursive, Arial, sans-serif;
+        font-size: 2em;
+    }
+}
+.carte_4{
+    background-color: #FDFFFD;
+    h2{
+        color: #61B04D;
+        font-family: niconne, cursive, Arial, sans-serif;
+    }
+    h3{
+        color: #73BF57;
+        font-family: niconne, cursive, Arial, sans-serif;
+        font-size: 2em;
+    }
+}

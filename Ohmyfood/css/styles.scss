@@ -1,14 +1,9 @@
-$primary:#579c87;
-$secondary:#FCDFDB;
-$tertiary:#FFF5FE;
-$quaternary:#F9F9F9;
-$colorfive:#FDFFFD;
-@mixin 
-
-
-/*PAGE D'ACCEUIL--PAGE D'ACCUEIL--PAGE D'ACCEUIL--PAGE D'ACCUEIL*/
+@import '_variables.scss';
+@import '_responsive.scss';
+@import '_cartes.scss';
 body{
-    margin: 0 0 40px 0;
+    margin: 0;
+    margin-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     background-color:#fff;
@@ -51,7 +46,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-left: 280px;
+    margin-left: 302px;
 }
 /*MENU MENU MENU MENU MENU*/
 .main_carte{
@@ -127,7 +122,7 @@ a{
     color: #FCCA46;
     border: 1px solid #579C87;
     border-radius: 20px;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-bottom: 20px;
     font-size:1.5em;
     height: 40px;

@@ -1,5 +1,19 @@
-@media all and (max-width: 680px)
-{
+@media all and (max-width: 768px){
+    body{
+        flex-basis: auto;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .header, footer
+    {
+        flex-basis: auto;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media all and (max-width: 769px){
     .header, footer
     {
         flex-basis: auto;
@@ -7,4 +21,16 @@
         margin-left: 0;
     }
 }
-@media 
+.menu{
+    margin: 0;
+    flex-basis: 300px;
+    height: 450px;
+}
+@media all and (min-width:770px) and (max-width:1024px){
+    .header, footer
+    {
+        flex-basis: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

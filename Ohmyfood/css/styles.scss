@@ -1,9 +1,11 @@
-/*Variables*/
 $primary:#579c87;
 $secondary:#FCDFDB;
 $tertiary:#FFF5FE;
 $quaternary:#F9F9F9;
 $colorfive:#FDFFFD;
+@mixin 
+
+
 /*PAGE D'ACCEUIL--PAGE D'ACCUEIL--PAGE D'ACCEUIL--PAGE D'ACCUEIL*/
 body{
     margin: 0 0 40px 0;
@@ -67,7 +69,7 @@ a{
     border-radius: 1px;
 }
 .carte_1 {
-    background-color: #FCDFDB;
+    background-color: $secondary;
     h2{
         color: #3E141A;
         font-family: niconne, cursive;
@@ -96,7 +98,7 @@ a{
     }
 }
 .carte_3{
-    background-color: #F9F9F9;
+    background-color: $quaternary;
     h2{
         color: #1158E9;
         font-family: niconne, cursive, Arial, sans-serif;
@@ -108,7 +110,7 @@ a{
     }
 }
 .carte_4{
-    background-color: #FDFFFD;
+    background-color: $colorfive;
     h2{
         color: #61B04D;
         font-family: niconne, cursive, Arial, sans-serif;

@@ -1,36 +1,84 @@
-@media all and (max-width: 768px){
+@media screen and (max-width: 768px){
+    .header, footer
+    {
+        flex-basis: 100%;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wrapper{
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main{
+        flex-basis: auto;
+    }
+    .carte{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .header, footer
+    {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wrapper{
+        justify-content: baseline;
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:770px) and (max-width:1024px){
+    .header, footer
+    {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wrapper{
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1400px){
     body{
-        flex-basis: auto;
         margin: 0;
-        margin-right: 0;
-        margin-left: 0;
+        background-color: black;
     }
     .header, footer
     {
-        flex-basis: auto;
-        margin: 0;
+        flex-basis: 100%;
         margin-right: 0;
         margin-left: 0;
     }
+    .wrapper{
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .carte{
+        display: block;
+        width: auto;
+        height: auto;
+    }
 }
-@media all and (max-width: 769px){
+@media screen and (min-width:1401px) and (max-width:1600px){
     .header, footer
     {
-        flex-basis: auto;
+        flex-basis: 100%;
         margin-right: 0;
         margin-left: 0;
     }
-}
-.menu{
-    margin: 0;
-    flex-basis: 300px;
-    height: 450px;
-}
-@media all and (min-width:770px) and (max-width:1024px){
-    .header, footer
-    {
-        flex-basis: auto;
-        margin-right: 0;
+    .wrapper{
+        flex-basis: 100%;
         margin-left: 0;
+        margin-right: 0;
     }
 }

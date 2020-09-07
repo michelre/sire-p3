@@ -1,4 +1,19 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'niconneregular';
+  src: url("../fonts/La-note-enchantee/Niconne-Regular-webfont.eot");
+  src: url("../fonts/La-note-enchantee/Niconne-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.woff") format("woff"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.ttf") format("truetype"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.svg#niconneregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*Variables*/
 @media screen and (max-width: 768px) {
   .header, footer {
@@ -61,7 +76,6 @@
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
   body {
     margin: 0;
-    background-color: black;
   }
   .header, footer {
     -ms-flex-preferred-size: 100%;
@@ -97,6 +111,21 @@
   }
 }
 
+@font-face {
+  font-family: 'niconneregular';
+  src: url("../fonts/La-note-enchantee/Niconne-Regular-webfont.eot");
+  src: url("../fonts/La-note-enchantee/Niconne-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.woff") format("woff"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.ttf") format("truetype"), url("../fonts/La-note-enchantee/Niconne-Regular-webfont.svg#niconneregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DancingScript-Regular';
+  src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .main_carte {
   text-align: center;
 }
@@ -122,16 +151,15 @@
 
 .carte_1 {
   background-color: #FCDFDB;
+  font-family: niconneregular, serif;
 }
 
 .carte_1 h2 {
   color: #3E141A;
-  font-family: niconne, cursive;
   font-size: 2em;
 }
 
 .carte_1 h3 {
-  font-family: niconne, cursive;
   font-size: 2em;
   color: #3E141A;
 }
@@ -157,13 +185,13 @@
 
 .carte_3 h2 {
   color: #1158E9;
-  font-family: niconne, cursive, Arial, sans-serif;
+  font-family: DancingScript-Regular, sans-serif;
   font-size: 2em;
 }
 
 .carte_3 h3 {
   color: #3A9DFA;
-  font-family: niconne, cursive, Arial, sans-serif;
+  font-family: DancingScript-Regular, sans-serif;
   font-size: 2em;
 }
 
@@ -183,12 +211,85 @@
   font-size: 2em;
 }
 
+.section_menu_1 {
+  background-color: #FCDFDB;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  font-family: niconne, cursive;
+  max-width: 750px;
+}
+
+.section_menu_2 {
+  background-color: #FFF5FE;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  max-width: 750px;
+}
+
+.section_menu_3 {
+  background-color: #F9F9F9;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  font-family: DancingSript-Regular, cursive;
+  max-width: 750px;
+}
+
+.section_menu_4 {
+  background-color: #FDFFFD;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  margin: 0 auto 80px auto;
+  text-align: center;
+  font-family: niconne, cursive;
+  max-width: 750px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #579C87;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #FCCA46;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  footer a {
+    font-size: 1.5em;
+  }
+}
+
 body {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 header {
@@ -254,94 +355,9 @@ a {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 302px;
+  margin: auto;
 }
 
-/*MENU MENU MENU MENU MENU*/
-.main_carte {
-  text-align: center;
-}
-
-.carte {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 400px;
-  height: 500px;
-  margin: 20px;
-  padding-right: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-shadow: 0 3px 3px 0;
-          box-shadow: 0 3px 3px 0;
-  border-radius: 1px;
-}
-
-.carte_1 {
-  background-color: #FCDFDB;
-}
-
-.carte_1 h2 {
-  color: #3E141A;
-  font-family: niconne, cursive;
-  font-size: 2em;
-}
-
-.carte_1 h3 {
-  font-family: niconne, cursive;
-  font-size: 2em;
-  color: #3E141A;
-}
-
-.carte_2 {
-  background-color: #FFF5FE;
-}
-
-.carte_2 h2 {
-  color: #C57A66;
-}
-
-.carte_2 h3 {
-  color: #D8852E;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 2em;
-}
-
-.carte_3 {
-  background-color: #F9F9F9;
-}
-
-.carte_3 h2 {
-  color: #1158E9;
-  font-family: niconne, cursive, Arial, sans-serif;
-}
-
-.carte_3 h3 {
-  color: #3A9DFA;
-  font-family: niconne, cursive, Arial, sans-serif;
-  font-size: 2em;
-}
-
-.carte_4 {
-  background-color: #FDFFFD;
-}
-
-.carte_4 h2 {
-  color: #61B04D;
-  font-family: niconne, cursive, Arial, sans-serif;
-}
-
-.carte_4 h3 {
-  color: #73BF57;
-  font-family: niconne, cursive, Arial, sans-serif;
-  font-size: 2em;
-}
-
-/*PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT PROCHAINEMENT*/
 .aurevoir {
   background-color: #579C87;
   color: #FCCA46;
@@ -351,78 +367,6 @@ a {
   margin-bottom: 20px;
   font-size: 1.5em;
   height: 40px;
-}
-
-/*FOOTER FOOTER FOOTER FOOTER FOOTER*/
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #579C87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 40px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer a {
-  color: #FCCA46;
-  font-size: 1.5em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-/*LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEE LA NOTE ENCHANTEELA NOTE ENCHANTEE*/
-.section_menu_1 {
-  background-color: #FCDFDB;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  margin: 0 450px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-family: niconne, cursive;
-}
-
-/*LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE LE CHIC A LA FRANCAISE*/
-.section_menu_2 {
-  background-color: #FFF5FE;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  margin: 0 450px;
-  margin-bottom: 80px;
-  text-align: center;
-}
-
-/*LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES LE DELICE DES PAPILLES*/
-.section_menu_3 {
-  background-color: #F9F9F9;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  margin: 0 450px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-family: niconne, cursive;
-}
-
-/*LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT LA PALETTE DU GOUT*/
-.section_menu_4 {
-  background-color: #FDFFFD;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  margin: 0 450px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-family: niconne, cursive;
 }
 
 /*RESPONSIVE*/
@@ -448,7 +392,7 @@ footer a {
   .carte {
     display: -ms-grid;
     display: grid;
-    margin: 0, 0, 2px, 0;
+    margin: 0;
   }
   .section_menu_1 {
     width: 100%;

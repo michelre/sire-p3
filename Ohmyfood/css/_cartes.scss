@@ -1,3 +1,5 @@
+@import "_fonts.scss";
+
 .main_carte{
     text-align: center;
 }
@@ -12,15 +14,14 @@
     box-shadow: 0 3px 3px 0; 
     border-radius: 1px;
 }
-.carte_1 {
+.carte_1 {    
     background-color: #FCDFDB;
+    font-family: niconneregular, serif;
     h2{
         color: #3E141A;
-        font-family: niconne, cursive;
         font-size: 2em;
     }
     h3{
-        font-family: niconne, cursive;
         font-size: 2em;
         color: #3E141A;
     }
@@ -41,12 +42,12 @@
     background-color: #F9F9F9;
     h2{
         color: #1158E9;
-        font-family: niconne, cursive, Arial, sans-serif;
+        font-family: DancingScript-Regular, sans-serif;
         font-size: 2em;
     }
     h3{
         color: #3A9DFA;
-        font-family: niconne, cursive, Arial, sans-serif;
+        font-family: DancingScript-Regular, sans-serif;
         font-size: 2em;
     }
 }

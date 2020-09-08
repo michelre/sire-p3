@@ -1,3 +1,4 @@
+/*Font_general*/
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -10,6 +11,7 @@
          url('../fonts/general/montserrat-v14-latin-regular.ttf') format('truetype'), 
          url('../fonts/general/montserrat-v14-latin-regular.svg') format('svg'); 
   }
+/*Fonts_La note enchantée*/
 @font-face {
     font-family: 'Niconne';
     font-style: normal;
@@ -33,17 +35,50 @@
          url('../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf') format('truetype'), 
          url('../fonts/La-note-enchantee/tillana-v6-latin-regular.svg') format('svg');
   }
+  /*Fonts_Le chic à la française*/
 @font-face {
-    font-family: 'DancingScript-Regular';
-    src: url('../fonts/Le-delice-de-papille/DancingScript-Regular.ttf') format('truetyle'),
-         url('../fonts/Le-delice-de-papille/DancingScript-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Croissant One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/croissant-one-v8-latin-regular.eot'); 
+  src: local('Croissant One'), local('CroissantOne-Regular'),
+       url('../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.eot') format('embedded-opentype'),
+       url('../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff2') format('woff2'), 
+       url('../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff') format('woff'), 
+       url('../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.ttf') format('truetype'),
+       url('../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.svg') format('svg');
+}
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/merriweather-v21-latin-regular.eot'); 
+  src: local('Merriweather Regular'), local('Merriweather-Regular'),
+       url('../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.eot') format('embedded-opentype'), 
+       url('../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff2') format('woff2'), 
+       url('../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff') format('woff'),
+       url('../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.ttf') format('truetype'), 
+       url('../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.svg') format('svg');
+}
+/*FONTS LES DELICES DE PAPILLES*/
+/* bad-script-regular - latin */
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bad-script-v9-latin-regular.eot'); 
+  src: local('Bad Script Regular'), local('BadScript-Regular'),
+       url('../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.eot') format('embedded-opentype'), 
+       url('../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff2') format('woff2'), 
+       url('../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff') format('woff'), 
+       url('../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.ttf') format('truetype'), 
+       url('../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.svg') format('svg'); 
 }
 @font-face {
     font-family: 'Kalam';
     font-style: normal;
-    font-style: normal;
+    font-weight: 400;
     src: url('../fonts/kalam-v11-latin-regular.eot'); 
     src: local('Kalam'), local('Kalam-Regular'),
          url('../fonts/La-note-enchantee/kalam-v11-latin-regular.eot') format('embedded-opentype'), 
@@ -52,3 +87,18 @@
          url('../fonts/La-note-enchantee/kalam-v11-latin-regular.ttf') format('truetype'), 
          url('../fonts/La-note-enchantee/kalam-v11-latin-regular.svg') format('svg'); 
   }
+
+  /*LA PALETTE DU GOUT*/
+  /* kaushan-script-regular - latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/kaushan-script-v9-latin-regular.eot'); 
+  src: local('Kaushan Script'), local('KaushanScript-Regular'),
+       url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot') format('embedded-opentype'), 
+       url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2') format('woff2'), 
+       url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff') format('woff'), 
+       url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf') format('truetype'), 
+       url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg') format('svg'); 
+}

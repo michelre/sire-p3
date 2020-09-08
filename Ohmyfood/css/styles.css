@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Font_general*/
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -7,6 +8,7 @@
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/general/montserrat-v14-latin-regular.eot") format("embedded-opentype"), url("../fonts/general/montserrat-v14-latin-regular.woff2") format("woff2"), url("../fonts/general/montserrat-v14-latin-regular.woff") format("woff"), url("../fonts/general/montserrat-v14-latin-regular.ttf") format("truetype"), url("../fonts/general/montserrat-v14-latin-regular.svg") format("svg");
 }
 
+/*Fonts_La note enchantée*/
 @font-face {
   font-family: 'Niconne';
   font-style: normal;
@@ -22,19 +24,50 @@
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
 
+/*Fonts_Le chic à la française*/
 @font-face {
-  font-family: 'DancingScript-Regular';
-  src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: 'Croissant One';
   font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/croissant-one-v8-latin-regular.eot");
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.svg") format("svg");
+}
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/merriweather-v21-latin-regular.eot");
+  src: local("Merriweather Regular"), local("Merriweather-Regular"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.svg") format("svg");
+}
+
+/*FONTS LES DELICES DE PAPILLES*/
+/* bad-script-regular - latin */
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bad-script-v9-latin-regular.eot");
+  src: local("Bad Script Regular"), local("BadScript-Regular"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff") format("woff"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.svg") format("svg");
 }
 
 @font-face {
   font-family: 'Kalam';
   font-style: normal;
-  font-style: normal;
+  font-weight: 400;
   src: url("../fonts/kalam-v11-latin-regular.eot");
   src: local("Kalam"), local("Kalam-Regular"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.svg") format("svg");
+}
+
+/*LA PALETTE DU GOUT*/
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kaushan-script-v9-latin-regular.eot");
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
 
 /*Variables*/
@@ -134,6 +167,7 @@
   }
 }
 
+/*Font_general*/
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -142,6 +176,7 @@
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/general/montserrat-v14-latin-regular.eot") format("embedded-opentype"), url("../fonts/general/montserrat-v14-latin-regular.woff2") format("woff2"), url("../fonts/general/montserrat-v14-latin-regular.woff") format("woff"), url("../fonts/general/montserrat-v14-latin-regular.ttf") format("truetype"), url("../fonts/general/montserrat-v14-latin-regular.svg") format("svg");
 }
 
+/*Fonts_La note enchantée*/
 @font-face {
   font-family: 'Niconne';
   font-style: normal;
@@ -157,19 +192,50 @@
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
 
+/*Fonts_Le chic à la française*/
 @font-face {
-  font-family: 'DancingScript-Regular';
-  src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: 'Croissant One';
   font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/croissant-one-v8-latin-regular.eot");
+  src: local("Croissant One"), local("CroissantOne-Regular"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.svg") format("svg");
+}
+
+/* merriweather-regular - latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/merriweather-v21-latin-regular.eot");
+  src: local("Merriweather Regular"), local("Merriweather-Regular"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.svg") format("svg");
+}
+
+/*FONTS LES DELICES DE PAPILLES*/
+/* bad-script-regular - latin */
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bad-script-v9-latin-regular.eot");
+  src: local("Bad Script Regular"), local("BadScript-Regular"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff") format("woff"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.svg") format("svg");
 }
 
 @font-face {
   font-family: 'Kalam';
   font-style: normal;
-  font-style: normal;
+  font-weight: 400;
   src: url("../fonts/kalam-v11-latin-regular.eot");
   src: local("Kalam"), local("Kalam-Regular"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.svg") format("svg");
+}
+
+/*LA PALETTE DU GOUT*/
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kaushan-script-v9-latin-regular.eot");
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
 
 .main_carte {
@@ -219,12 +285,17 @@
 .carte_2 h2 {
   color: #C57A66;
   font-size: 2em;
+  font-family: Croissant one;
 }
 
 .carte_2 h3 {
   color: #D8852E;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: merriweather, serif;
   font-size: 2em;
+}
+
+.carte_2 p {
+  color: #C67412;
 }
 
 .carte_3 {
@@ -233,13 +304,13 @@
 
 .carte_3 h2 {
   color: #1158E9;
-  font-family: DancingScript-Regular, sans-serif;
+  font-family: niconne, cursive;
   font-size: 2em;
 }
 
 .carte_3 h3 {
   color: #3A9DFA;
-  font-family: DancingScript-Regular, sans-serif;
+  font-family: Bad Script, cursive;
   font-size: 2em;
 }
 
@@ -249,13 +320,13 @@
 
 .carte_4 h2 {
   color: #61B04D;
-  font-family: niconne, cursive, Arial, sans-serif;
+  font-family: kaushan script;
   font-size: 2em;
 }
 
 .carte_4 h3 {
   color: #73BF57;
-  font-family: niconne, cursive, Arial, sans-serif;
+  font-family: Bad script, cursive;
   font-size: 2em;
 }
 
@@ -280,6 +351,19 @@
   margin: 0 auto 80px auto;
   text-align: center;
   max-width: 750px;
+  font-family: merriweather, serif;
+}
+
+.section_menu_2 li {
+  color: #C67412;
+}
+
+.section_menu_2 h3 {
+  color: #C67412;
+}
+
+.section_menu_2 .menu_dessert {
+  color: #6E4CCC;
 }
 
 .section_menu_3 {
@@ -288,8 +372,8 @@
       flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
-  font-family: DancingSript-Regular, cursive;
   max-width: 750px;
+  font-family: kalam, cursive;
 }
 
 .section_menu_4 {
@@ -298,8 +382,8 @@
       flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
-  font-family: niconne, cursive;
   max-width: 750px;
+  font-family: kalam, cursive;
 }
 
 footer {

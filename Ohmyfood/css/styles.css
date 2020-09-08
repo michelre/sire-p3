@@ -15,6 +15,14 @@
 }
 
 @font-face {
+  font-family: 'Tillana';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/La-notetillana-v6-latin-regular.eot");
+  src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
+}
+
+@font-face {
   font-family: 'DancingScript-Regular';
   src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
   font-weight: normal;
@@ -142,6 +150,14 @@
 }
 
 @font-face {
+  font-family: 'Tillana';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/La-notetillana-v6-latin-regular.eot");
+  src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
+}
+
+@font-face {
   font-family: 'DancingScript-Regular';
   src: url("../fonts/Le-delice-de-papille/DancingScript-Regular.ttf") format("truetyle"), url("../fonts/Le-delice-de-papille/DancingScript-Regular.woff") format("woff");
   font-weight: normal;
@@ -193,6 +209,7 @@
 .carte_1 h3 {
   font-size: 2em;
   color: #3E141A;
+  font-family: Tillana, cursive;
 }
 
 .carte_2 {

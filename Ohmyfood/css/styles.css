@@ -288,6 +288,7 @@
   color: #3E141A;
   font-size: 2em;
   font-family: niconne, cursive;
+  font-size: 2em;
 }
 
 .carte_1 h3 {
@@ -304,6 +305,7 @@
   color: #C57A66;
   font-size: 2em;
   font-family: Croissant one;
+  font-size: 1.5em;
 }
 
 .carte_2 h3 {
@@ -360,6 +362,7 @@
 
 .section_menu_1 h2 {
   font-family: niconne, cursive;
+  font-size: 2em;
 }
 
 .section_menu_2 {
@@ -373,6 +376,11 @@
 }
 
 .section_menu_2 li {
+  color: #C67412;
+}
+
+.section_menu_2 h2 {
+  font-family: croissant one;
   color: #C67412;
 }
 
@@ -526,10 +534,11 @@ a {
   background-color: #579C87;
   color: #FCCA46;
   border: 1px solid #579C87;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-left: 45%;
   margin-bottom: 20px;
   font-size: 1.5em;
   height: 40px;
+  letter-spacing: 0.2em;
 }
 /*# sourceMappingURL=styles.css.map */

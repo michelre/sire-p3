@@ -102,3 +102,17 @@
        url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf') format('truetype'), 
        url('../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg') format('svg'); 
 }
+
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dancing-script-v15-latin-regular.eot'); 
+  src: local(''),
+       url('../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.eot') format('embedded-opentype'), 
+       url('../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff2') format('woff2'), 
+       url('../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff') format('woff'), 
+       url('../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.ttf') format('truetype'), 
+       url('../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.svg') format('svg'); 
+}

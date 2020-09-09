@@ -70,6 +70,15 @@
   src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
 
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dancing-script-v15-latin-regular.eot");
+  src: local(""), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.svg") format("svg");
+}
+
 /*Variables*/
 @media screen and (max-width: 768px) {
   .header, footer {
@@ -238,6 +247,15 @@
   src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
 
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dancing-script-v15-latin-regular.eot");
+  src: local(""), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.svg") format("svg");
+}
+
 .main_carte {
   text-align: center;
 }
@@ -304,7 +322,7 @@
 
 .carte_3 h2 {
   color: #1158E9;
-  font-family: niconne, cursive;
+  font-family: Dancing script, cursive;
   font-size: 2em;
 }
 
@@ -376,6 +394,11 @@
   font-family: kalam, cursive;
 }
 
+.section_menu_3 h2 {
+  font-family: Dancing script, cursive;
+  color: #1158E9;
+}
+
 .section_menu_4 {
   background-color: #FDFFFD;
   -ms-flex-preferred-size: auto;
@@ -384,6 +407,11 @@
   text-align: center;
   max-width: 750px;
   font-family: kalam, cursive;
+}
+
+.section_menu_4 h2 {
+  font-family: kaushan script;
+  color: #61B04D;
 }
 
 footer {

@@ -24,6 +24,17 @@
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
 
+/* devonshire-regular - latin */
+@font-face {
+  font-family: 'Devonshire';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/devonshire-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Devonshire-Regular"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.svg") format("svg");
+  /* Legacy iOS */
+}
+
 /*Fonts_Le chic à la française*/
 @font-face {
   font-family: 'Croissant One';
@@ -201,6 +212,17 @@
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
 
+/* devonshire-regular - latin */
+@font-face {
+  font-family: 'Devonshire';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/devonshire-v9-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Devonshire-Regular"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.svg") format("svg");
+  /* Legacy iOS */
+}
+
 /*Fonts_Le chic à la française*/
 @font-face {
   font-family: 'Croissant One';
@@ -317,7 +339,7 @@
 .carte_1 h2 {
   color: #3E141A;
   font-size: 2em;
-  font-family: niconne, cursive;
+  font-family: devonshire, cursive;
   font-size: 2em;
 }
 
@@ -325,6 +347,10 @@
   font-size: 2em;
   color: #3E141A;
   font-family: Tillana, cursive;
+}
+
+.carte_1 .h3.carte_menu {
+  font-family: devonshire, cursive;
 }
 
 .carte_2 {
@@ -411,8 +437,9 @@
 }
 
 .section_menu_1 h2 {
-  font-family: niconne, cursive;
-  font-size: 2em;
+  font-family: devonshire, cursive;
+  color: #3D1319;
+  font-size: 3em;
 }
 
 .section_menu_2 {

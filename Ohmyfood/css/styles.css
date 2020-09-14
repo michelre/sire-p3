@@ -267,7 +267,6 @@
   width: 400px;
   height: 500px;
   margin: 20px;
-  padding-right: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -277,6 +276,37 @@
   -webkit-box-shadow: 0 3px 3px 0;
           box-shadow: 0 3px 3px 0;
   border-radius: 1px;
+  overflow: hidden;
+  -webkit-transition: opacity .500s ease-out;
+  transition: opacity .500s ease-out;
+}
+
+.carte a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: -webkit-transform .500s ease-out;
+  transition: -webkit-transform .500s ease-out;
+  transition: transform .500s ease-out;
+  transition: transform .500s ease-out, -webkit-transform .500s ease-out;
+}
+
+.carte a:hover {
+  -webkit-transform: scale(1.4, 1.4);
+          transform: scale(1.4, 1.4);
+}
+
+.carte:hover {
+  opacity: .5;
 }
 
 .carte_1 {
@@ -358,6 +388,26 @@
   text-align: center;
   font-family: 'Kalam', cursive;
   max-width: 750px;
+}
+
+.section_menu_1 .subline span {
+  position: relative;
+}
+
+.section_menu_1 .subline span:hover::after {
+  width: 100%;
+}
+
+.section_menu_1 .subline span::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: width .250s ease;
+  transition: width .250s ease;
 }
 
 .section_menu_1 h2 {
@@ -634,10 +684,12 @@ a {
   color: #FCCA46;
   border: 1px solid #579C87;
   border-radius: 10px;
-  margin-left: 45%;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 20px;
   font-size: 1.5em;
   height: 40px;
   letter-spacing: 0.2em;
+  display: block;
 }
 /*# sourceMappingURL=styles.css.map */

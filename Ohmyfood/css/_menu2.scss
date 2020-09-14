@@ -5,6 +5,24 @@
     text-align: center;
     max-width: 750px;
     font-family: merriweather, serif;
+    .subline span {
+        position: relative;
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: black;
+            bottom: 0;
+            left: 0;
+            transition: width .250s ease;
+        }
+    }
     li{
         color: #C67412;
     }

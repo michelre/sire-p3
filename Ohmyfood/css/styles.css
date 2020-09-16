@@ -349,10 +349,6 @@
   font-family: Tillana, cursive;
 }
 
-.carte_1 .h3.carte_menu {
-  font-family: devonshire, cursive;
-}
-
 .carte_2 {
   background-color: #FFF5FE;
 }
@@ -750,6 +746,11 @@ li {
 a {
   text-align: center;
   text-decoration: none;
+}
+
+a img.notemusic {
+  width: 25px;
+  height: 25px;
 }
 
 .wrapper {

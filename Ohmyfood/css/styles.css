@@ -386,6 +386,10 @@
   font-size: 2em;
 }
 
+.carte_3 h3 img {
+  width: 150px;
+}
+
 .carte_4 {
   background-color: #FDFFFD;
 }
@@ -524,6 +528,10 @@
   color: #1158E9;
 }
 
+.section_menu_3 img {
+  width: 150px;
+}
+
 .section_menu_4 {
   background-color: #FDFFFD;
   -ms-flex-preferred-size: auto;
@@ -557,6 +565,10 @@
 .section_menu_4 h2 {
   font-family: kaushan script;
   color: #61B04D;
+}
+
+.section_menu_4 img {
+  width: 150px;
 }
 
 .footer {

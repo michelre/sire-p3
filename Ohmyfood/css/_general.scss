@@ -62,4 +62,16 @@ a{
     letter-spacing: 0.2em;
     display: block;
 }
+span{
+    padding-left: 10px;
+    animation: dots 2.5s ease-in-out infinite;
+}
+@keyframes dots{
+    0%{
+        transform: scale(0.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
 

@@ -386,10 +386,6 @@
   font-size: 2em;
 }
 
-.carte_3 h3 img {
-  width: 150px;
-}
-
 .carte_4 {
   background-color: #FDFFFD;
 }
@@ -795,5 +791,33 @@ a img.notemusic {
   height: 40px;
   letter-spacing: 0.2em;
   display: block;
+}
+
+span {
+  padding-left: 10px;
+  -webkit-animation: dots 2.5s ease-in-out infinite;
+          animation: dots 2.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes dots {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 /*# sourceMappingURL=styles.css.map */

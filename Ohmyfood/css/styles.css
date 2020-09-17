@@ -349,6 +349,10 @@
   font-family: Tillana, cursive;
 }
 
+.carte_1 button.span {
+  font-family: devonshire;
+}
+
 .carte_2 {
   background-color: #FFF5FE;
 }
@@ -436,6 +440,10 @@
   font-family: devonshire, cursive;
   color: #3D1319;
   font-size: 3em;
+}
+
+.section_menu_1 img {
+  width: 200px;
 }
 
 .section_menu_2 {
@@ -760,9 +768,11 @@ a {
   text-decoration: none;
 }
 
-a img.notemusic {
-  width: 25px;
-  height: 25px;
+img.notemusic {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
 }
 
 .wrapper {

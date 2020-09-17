@@ -349,10 +349,6 @@
   font-family: Tillana, cursive;
 }
 
-.carte_1 button.span {
-  font-family: devonshire;
-}
-
 .carte_2 {
   background-color: #FFF5FE;
 }
@@ -493,7 +489,7 @@
   width: 200px;
 }
 
-.section_menu_2 .menu_dessert {
+.section_menu_2 .liste_dessert ul {
   color: #6E4CCC;
 }
 

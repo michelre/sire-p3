@@ -19,6 +19,9 @@
         width: auto;
         height: auto;
     }
+    .img, h3{
+        display: none;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .header, footer

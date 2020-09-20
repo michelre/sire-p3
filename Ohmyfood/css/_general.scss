@@ -18,7 +18,7 @@ header{
 h1{
     color: #FCCA46;
 }
-h3.menu_entrée, h3.menu_plats, h3.menu_dessert{
+h3.menu_entree, h3.menu_plats, h3.menu_dessert{
     text-align: center;
 }
 ul{
@@ -40,7 +40,7 @@ img.notemusic{
     width: 50px;
     height: 50px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
 }    
 .wrapper{
     max-width: 1024px;
@@ -58,21 +58,44 @@ img.notemusic{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    font-size:1.5em;
+    font-size:1.2em;
     height: 40px;
     letter-spacing: 0.2em;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
 }
-span{
+.dots{
     padding-left: 10px;
-    animation: dots 2.5s ease-in-out infinite;
+    div{
+        display: inline-block;
+        background: #FCCA46;
+        width: 7px;
+        height: 7px;
+        margin-right: 10px;
+        font-size: 10px;
+        border-radius: 100%;
+        animation: dots 1.5s ease-out infinite;
+
+        &:nth-child(1){
+            animation-delay: 0s;
+        }
+        &:nth-child(2){
+            animation-delay: 0.5s;
+        }
+        &:nth-child(3){
+            animation-delay: 1s;
+        }
+    }
+    
 }
 @keyframes dots{
     0%{
-        transform: scale(0.2);
+        opacity: 1;
     }
-    50% {
-        transform: scale(1);
+    100% {
+        opacity: 0;
     }
 }
 

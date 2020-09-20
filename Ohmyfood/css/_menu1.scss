@@ -32,4 +32,23 @@
     img{
         width: 200px;
     }
+
+    .title-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+        img {
+            margin: 0 10px 0 0;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .notemusic {
+        margin-top: 20px;
+    }
 } 

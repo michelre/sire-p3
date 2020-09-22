@@ -354,14 +354,13 @@
 }
 
 .carte_2 h2 {
-  color: #C57A66;
+  background: -webkit-linear-gradient(300deg, #C57A66, #8F5BFF);
   font-size: 2em;
   font-family: Croissant one;
   font-size: 1.5em;
 }
 
 .carte_2 h3 {
-  color: #D8852E;
   font-family: merriweather, serif;
   font-size: 2em;
 }
@@ -501,25 +500,12 @@
   transition: width .250s ease;
 }
 
-.section_menu_2 li {
-  color: #C67412;
-}
-
 .section_menu_2 h2 {
   font-family: croissant one;
-  color: #C67412;
-}
-
-.section_menu_2 h3 {
-  color: #C67412;
 }
 
 .section_menu_2 h3 img {
   width: 200px;
-}
-
-.section_menu_2 .liste_dessert ul {
-  color: #6E4CCC;
 }
 
 .section_menu_3 {

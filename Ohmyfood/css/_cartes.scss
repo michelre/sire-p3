@@ -1,6 +1,7 @@
 @import "_fonts.scss";
 
 .main_carte{
+    color: black;
     text-align: center;
 }
 .carte{
@@ -49,18 +50,10 @@
 
 .carte_2{
     background-color:#FFF5FE;
-    h2{
-        background: -webkit-linear-gradient(300deg, #C57A66, #8F5BFF);
-        font-size: 2em;
-        font-family: Croissant one;
-        font-size: 1.5em;
-    }
     h3{
+        color: #D8852E;
         font-family: merriweather, serif;
         font-size: 2em;
-    }
-    p{
-        color: #C67412;
     }
 }
 .carte_3{

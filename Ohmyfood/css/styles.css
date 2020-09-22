@@ -279,6 +279,7 @@
 }
 
 .main_carte {
+  color: black;
   text-align: center;
 }
 
@@ -353,20 +354,10 @@
   background-color: #FFF5FE;
 }
 
-.carte_2 h2 {
-  background: -webkit-linear-gradient(300deg, #C57A66, #8F5BFF);
-  font-size: 2em;
-  font-family: Croissant one;
-  font-size: 1.5em;
-}
-
 .carte_2 h3 {
+  color: #D8852E;
   font-family: merriweather, serif;
   font-size: 2em;
-}
-
-.carte_2 p {
-  color: #C67412;
 }
 
 .carte_3 {
@@ -489,22 +480,26 @@
 }
 
 .section_menu_2 .subline span::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   background: black;
   bottom: 0;
   left: 0;
-  -webkit-transition: width .250s ease;
-  transition: width .250s ease;
+  -webkit-transition: width 0.25s ease;
+  transition: width 0.25s ease;
 }
 
-.section_menu_2 h2 {
-  font-family: croissant one;
+.section_menu_2 ul.liste_dessert {
+  color: #6f4dcd;
 }
 
-.section_menu_2 h3 img {
+h2 {
+  color: #bf7135;
+}
+
+h3 img {
   width: 200px;
 }
 

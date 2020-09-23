@@ -1,4 +1,4 @@
-.section_menu_2 {
+.section_menu_2{
   background-color: $tertiary;
   flex-basis: auto;
   margin: 0 auto 80px auto;
@@ -23,7 +23,7 @@
         width: 100%;
       }
     }
-    &::after {
+    &::after{
       content: "";
       position: absolute;
       width: 0;
@@ -52,5 +52,5 @@
       width: 200px;
     }
 }
- 
 }
+

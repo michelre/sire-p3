@@ -360,6 +360,15 @@
   font-size: 2em;
 }
 
+.carte_2 h2 {
+  -webkit-text-fill-color: transparent;
+  font-family: 'Croissant One',cursive;
+  font-weight: lighter;
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(300deg, #D8852E, #915DFC);
+  -webkit-background-clip: text;
+}
+
 .carte_3 {
   background-color: #F9F9F9;
 }
@@ -471,8 +480,21 @@
           box-shadow: 0 0 7px 3px #ededed;
 }
 
+.section_menu_2 .menu_entree {
+  color: #bf7135;
+}
+
+.section_menu_2 .menu_plats {
+  color: #a56799;
+}
+
+.section_menu_2 .menu_dessert {
+  color: #6f4dcd;
+}
+
 .section_menu_2 .subline span {
   position: relative;
+  width: 50px;
 }
 
 .section_menu_2 .subline span:hover::after {
@@ -484,22 +506,31 @@
   position: absolute;
   width: 0;
   height: 2px;
-  background: black;
+  background: #bf7135;
   bottom: 0;
   left: 0;
   -webkit-transition: width 0.25s ease;
   transition: width 0.25s ease;
 }
 
+.section_menu_2 ul.liste_plat_prix {
+  color: #a56799;
+}
+
 .section_menu_2 ul.liste_dessert {
   color: #6f4dcd;
 }
 
-h2 {
+.section_menu_2 ul.liste_entree_prix {
   color: #bf7135;
 }
 
-h3 img {
+.section_menu_2 h2 {
+  color: #bf7135;
+  font-family: Croissant one, cursive;
+}
+
+.section_menu_2 h3 img {
   width: 200px;
 }
 
@@ -528,7 +559,7 @@ h3 img {
   position: absolute;
   width: 0;
   height: 2px;
-  background: black;
+  background: #1158E9;
   bottom: 0;
   left: 0;
   -webkit-transition: width .250s ease;
@@ -569,7 +600,7 @@ h3 img {
   position: absolute;
   width: 0;
   height: 2px;
-  background: black;
+  background: #61B04D;
   bottom: 0;
   left: 0;
   -webkit-transition: width .250s ease;

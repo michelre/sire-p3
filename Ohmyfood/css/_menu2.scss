@@ -6,8 +6,18 @@
   max-width: 750px;
   font-family: merriweather, serif;
   box-shadow: 0 0 7px 3px rgb(237, 237, 237);
-  .subline span {
+  .menu_entree {
+    color: #bf7135;
+  }
+  .menu_plats{
+    color: #a56799;
+  }
+  .menu_dessert{
+    color: #6f4dcd;
+  }
+  .subline span{
     position: relative;
+    width: 50px;
     &:hover {
       &::after {
         width: 100%;
@@ -18,21 +28,29 @@
       position: absolute;
       width: 0;
       height: 2px;
-      background: black;
+      background:#bf7135;
       bottom: 0;
       left: 0;
       transition: width 0.25s ease;
     }
   }
+  ul.liste_plat_prix {
+    color: #a56799;
+  }
   ul.liste_dessert {
     color: #6f4dcd;
   }
-}
+  ul.liste_entree_prix {
+    color: #bf7135;
+  }
   h2 {
     color: #bf7135;
+    font-family: Croissant one, cursive;
   }
   h3 {
     img {
       width: 200px;
     }
-  }
+}
+ 
+}

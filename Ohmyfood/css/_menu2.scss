@@ -8,12 +8,30 @@
   box-shadow: 0 0 7px 3px rgb(237, 237, 237);
   .menu_entree {
     color: #bf7135;
+
+    &.subline span {
+      &::after {
+        background:#bf7135;
+      }
+    }
   }
   .menu_plats{
     color: #a56799;
+
+    &.subline span {
+      &::after {
+        background:#a56799;
+      }
+    }
   }
   .menu_dessert{
     color: #6f4dcd;
+
+    &.subline span {
+      &::after {
+        background:#6f4dcd;
+      }
+    }
   }
   .subline span{
     position: relative;
@@ -28,7 +46,6 @@
       position: absolute;
       width: 0;
       height: 2px;
-      background:#bf7135;
       bottom: 0;
       left: 0;
       transition: width 0.25s ease;

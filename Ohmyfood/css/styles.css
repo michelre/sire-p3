@@ -1,32 +1,29 @@
 @charset "UTF-8";
 /*Font_general*/
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/montserrat-v14-latin-regular.eot");
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/general/montserrat-v14-latin-regular.eot") format("embedded-opentype"), url("../fonts/general/montserrat-v14-latin-regular.woff2") format("woff2"), url("../fonts/general/montserrat-v14-latin-regular.woff") format("woff"), url("../fonts/general/montserrat-v14-latin-regular.ttf") format("truetype"), url("../fonts/general/montserrat-v14-latin-regular.svg") format("svg");
 }
-
 /*Fonts_La note enchantée*/
 @font-face {
-  font-family: 'Niconne';
+  font-family: "Niconne";
   font-style: normal;
   src: url("../fonts/niconne-v10-latin-regular.eot");
   src: local("Niconne"), local("Niconne-Regular"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.svg") format("svg");
 }
-
 @font-face {
-  font-family: 'Tillana';
+  font-family: "Tillana";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/La-notetillana-v6-latin-regular.eot");
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
-
 /* devonshire-regular - latin */
 @font-face {
-  font-family: 'Devonshire';
+  font-family: "Devonshire";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/devonshire-v9-latin-regular.eot");
@@ -34,187 +31,171 @@
   src: local("Devonshire-Regular"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.svg") format("svg");
   /* Legacy iOS */
 }
-
 /*Fonts_Le chic à la française*/
 @font-face {
-  font-family: 'Croissant One';
+  font-family: "Croissant One";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/croissant-one-v8-latin-regular.eot");
   src: local("Croissant One"), local("CroissantOne-Regular"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.svg") format("svg");
 }
-
 /* merriweather-regular - latin */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/merriweather-v21-latin-regular.eot");
   src: local("Merriweather Regular"), local("Merriweather-Regular"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.svg") format("svg");
 }
-
 /*FONTS LES DELICES DE PAPILLES*/
 /* bad-script-regular - latin */
 @font-face {
-  font-family: 'Bad Script';
+  font-family: "Bad Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/bad-script-v9-latin-regular.eot");
   src: local("Bad Script Regular"), local("BadScript-Regular"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff") format("woff"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.svg") format("svg");
 }
-
 @font-face {
-  font-family: 'Kalam';
+  font-family: "Kalam";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/kalam-v11-latin-regular.eot");
   src: local("Kalam"), local("Kalam-Regular"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.svg") format("svg");
 }
-
 /*LA PALETTE DU GOUT*/
 /* kaushan-script-regular - latin */
 @font-face {
-  font-family: 'Kaushan Script';
+  font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/kaushan-script-v9-latin-regular.eot");
   src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
-
 /* dancing-script-regular - latin */
 @font-face {
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/dancing-script-v15-latin-regular.eot");
   src: local(""), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.svg") format("svg");
 }
-
 /*Variables*/
 @media screen and (max-width: 768px) {
   .header, footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin: 0;
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .main {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    flex-basis: auto;
   }
+
   .carte {
     display: block;
     width: auto;
     height: auto;
   }
+
   .img, h3 {
     display: none;
   }
 }
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header, footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: 0;
     margin-right: 0;
   }
 }
-
 @media screen and (min-width: 770px) and (max-width: 1024px) {
   .header, footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: 0;
     margin-right: 0;
   }
 }
-
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
   body {
     margin: 0;
   }
+
   .header, footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .carte {
     display: block;
     width: auto;
     height: auto;
   }
 }
-
 @media screen and (min-width: 1401px) and (max-width: 1600px) {
   .header, footer {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin-left: 0;
     margin-right: 0;
   }
 }
-
 /*Font_general*/
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/montserrat-v14-latin-regular.eot");
   src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/general/montserrat-v14-latin-regular.eot") format("embedded-opentype"), url("../fonts/general/montserrat-v14-latin-regular.woff2") format("woff2"), url("../fonts/general/montserrat-v14-latin-regular.woff") format("woff"), url("../fonts/general/montserrat-v14-latin-regular.ttf") format("truetype"), url("../fonts/general/montserrat-v14-latin-regular.svg") format("svg");
 }
-
 /*Fonts_La note enchantée*/
 @font-face {
-  font-family: 'Niconne';
+  font-family: "Niconne";
   font-style: normal;
   src: url("../fonts/niconne-v10-latin-regular.eot");
   src: local("Niconne"), local("Niconne-Regular"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/niconne-v10-latin-regular.svg") format("svg");
 }
-
 @font-face {
-  font-family: 'Tillana';
+  font-family: "Tillana";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/La-notetillana-v6-latin-regular.eot");
   src: local("Tillana Regular"), local("Tillana-Regular"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/tillana-v6-latin-regular.svg") format("svg");
 }
-
 /* devonshire-regular - latin */
 @font-face {
-  font-family: 'Devonshire';
+  font-family: "Devonshire";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/devonshire-v9-latin-regular.eot");
@@ -222,128 +203,97 @@
   src: local("Devonshire-Regular"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/devonshire-v9-latin-regular.svg") format("svg");
   /* Legacy iOS */
 }
-
 /*Fonts_Le chic à la française*/
 @font-face {
-  font-family: 'Croissant One';
+  font-family: "Croissant One";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/croissant-one-v8-latin-regular.eot");
   src: local("Croissant One"), local("CroissantOne-Regular"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/croissant-one-v8-latin-regular.svg") format("svg");
 }
-
 /* merriweather-regular - latin */
 @font-face {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/merriweather-v21-latin-regular.eot");
   src: local("Merriweather Regular"), local("Merriweather-Regular"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff2") format("woff2"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.woff") format("woff"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.ttf") format("truetype"), url("../fonts/Le-chic-a-la-francaise/merriweather-v21-latin-regular.svg") format("svg");
 }
-
 /*FONTS LES DELICES DE PAPILLES*/
 /* bad-script-regular - latin */
 @font-face {
-  font-family: 'Bad Script';
+  font-family: "Bad Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/bad-script-v9-latin-regular.eot");
   src: local("Bad Script Regular"), local("BadScript-Regular"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.woff") format("woff"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/Le-delice-de-papille/bad-script-v9-latin-regular.svg") format("svg");
 }
-
 @font-face {
-  font-family: 'Kalam';
+  font-family: "Kalam";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/kalam-v11-latin-regular.eot");
   src: local("Kalam"), local("Kalam-Regular"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff2") format("woff2"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.woff") format("woff"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.ttf") format("truetype"), url("../fonts/La-note-enchantee/kalam-v11-latin-regular.svg") format("svg");
 }
-
 /*LA PALETTE DU GOUT*/
 /* kaushan-script-regular - latin */
 @font-face {
-  font-family: 'Kaushan Script';
+  font-family: "Kaushan Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/kaushan-script-v9-latin-regular.eot");
   src: local("Kaushan Script"), local("KaushanScript-Regular"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/kaushan-script-v9-latin-regular.svg") format("svg");
 }
-
 /* dancing-script-regular - latin */
 @font-face {
-  font-family: 'Dancing Script';
+  font-family: "Dancing Script";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/dancing-script-v15-latin-regular.eot");
   src: local(""), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.eot") format("embedded-opentype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff2") format("woff2"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.woff") format("woff"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.ttf") format("truetype"), url("../fonts/La-palette-du-gout/dancing-script-v15-latin-regular.svg") format("svg");
 }
-
 .main_carte {
   color: black;
   text-align: center;
 }
 
 .carte {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 400px;
   height: 500px;
   margin: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-shadow: 0 0 7px 3px #ededed;
-          box-shadow: 0 0 7px 3px #ededed;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 7px 3px #ededed;
   border-radius: 1px;
   overflow: hidden;
-  -webkit-transition: opacity .500s ease-out;
-  transition: opacity .500s ease-out;
+  transition: opacity 0.5s ease-out;
 }
-
 .carte a {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition: -webkit-transform .500s ease-out;
-  transition: -webkit-transform .500s ease-out;
-  transition: transform .500s ease-out;
-  transition: transform .500s ease-out, -webkit-transform .500s ease-out;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.5s ease-out;
 }
-
 .carte a:hover {
-  -webkit-transform: scale(1.4, 1.4);
-          transform: scale(1.4, 1.4);
+  transform: scale(1.4, 1.4);
 }
-
 .carte:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .carte_1 {
   background-color: #FCDFDB;
   font-family: niconneregular, serif;
 }
-
 .carte_1 h2 {
   color: #3E141A;
   font-size: 2em;
   font-family: devonshire, cursive;
   font-size: 2em;
 }
-
 .carte_1 h3 {
   font-size: 2em;
   color: #3E141A;
@@ -353,16 +303,14 @@
 .carte_2 {
   background-color: #FFF5FE;
 }
-
 .carte_2 h3 {
   color: #D8852E;
   font-family: merriweather, serif;
   font-size: 2em;
 }
-
 .carte_2 h2 {
   -webkit-text-fill-color: transparent;
-  font-family: 'Croissant One',cursive;
+  font-family: "Croissant One", cursive;
   font-weight: lighter;
   font-size: 1.5em;
   background: -webkit-linear-gradient(300deg, #D8852E, #915DFC);
@@ -372,13 +320,11 @@
 .carte_3 {
   background-color: #F9F9F9;
 }
-
 .carte_3 h2 {
   color: #1158E9;
   font-family: Dancing script, cursive;
   font-size: 2em;
 }
-
 .carte_3 h3 {
   color: #3A9DFA;
   font-family: Bad Script, cursive;
@@ -388,13 +334,11 @@
 .carte_4 {
   background-color: #FDFFFD;
 }
-
 .carte_4 h2 {
   color: #61B04D;
   font-family: kaushan script;
   font-size: 2em;
 }
-
 .carte_4 h3 {
   color: #73BF57;
   font-family: Bad script, cursive;
@@ -403,349 +347,238 @@
 
 .section_menu_1 {
   background-color: #FCDFDB;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   max-width: 750px;
-  -webkit-box-shadow: 0 0 7px 3px #ededed;
-          box-shadow: 0 0 7px 3px #ededed;
+  box-shadow: 0 0 7px 3px #ededed;
 }
-
 .section_menu_1 .subline span {
   position: relative;
 }
-
 .section_menu_1 .subline span:hover::after {
   width: 100%;
 }
-
 .section_menu_1 .subline span::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   background: black;
   bottom: 0;
   left: 0;
-  -webkit-transition: width .250s ease;
-  transition: width .250s ease;
+  transition: width 0.25s ease;
 }
-
 .section_menu_1 h2 {
   font-family: devonshire, cursive;
   color: #3D1319;
   font-size: 3em;
 }
-
 .section_menu_1 img {
   width: 200px;
 }
-
 .section_menu_1 .title-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 0;
 }
-
 .section_menu_1 .title-footer img {
   margin: 0 10px 0 0;
 }
-
 .section_menu_1 .title-footer p {
   margin: 0;
 }
-
 .section_menu_1 .notemusic {
   margin-top: 20px;
 }
 
 .section_menu_2 {
   background-color: #FFF5FE;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
   max-width: 750px;
   font-family: merriweather, serif;
-  -webkit-box-shadow: 0 0 7px 3px #ededed;
-          box-shadow: 0 0 7px 3px #ededed;
+  box-shadow: 0 0 7px 3px #ededed;
 }
-
 .section_menu_2 .menu_entree {
   color: #bf7135;
 }
-
+.section_menu_2 .menu_entree.subline span::after {
+  background: #bf7135;
+}
 .section_menu_2 .menu_plats {
   color: #a56799;
 }
-
+.section_menu_2 .menu_plats.subline span::after {
+  background: #a56799;
+}
 .section_menu_2 .menu_dessert {
   color: #6f4dcd;
 }
-
+.section_menu_2 .menu_dessert.subline span::after {
+  background: #6f4dcd;
+}
 .section_menu_2 .subline span {
   position: relative;
   width: 50px;
 }
-
 .section_menu_2 .subline span:hover::after {
   width: 100%;
 }
-
 .section_menu_2 .subline span::after {
   content: "";
   position: absolute;
   width: 0;
   height: 2px;
-  background: #bf7135;
   bottom: 0;
   left: 0;
-  -webkit-transition: width 0.25s ease;
   transition: width 0.25s ease;
 }
-
 .section_menu_2 ul.liste_plat_prix {
   color: #a56799;
 }
-
 .section_menu_2 ul.liste_dessert {
   color: #6f4dcd;
 }
-
 .section_menu_2 ul.liste_entree_prix {
   color: #bf7135;
 }
-
 .section_menu_2 h2 {
   color: #bf7135;
   font-family: Croissant one, cursive;
 }
-
 .section_menu_2 h3 img {
   width: 200px;
 }
 
 .section_menu_3 {
   background-color: #F9F9F9;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
   max-width: 750px;
   font-family: kalam, cursive;
-  -webkit-box-shadow: 0 0 7px 3px #ededed;
-          box-shadow: 0 0 7px 3px #ededed;
+  box-shadow: 0 0 7px 3px #ededed;
 }
-
 .section_menu_3 .subline span {
   position: relative;
 }
-
 .section_menu_3 .subline span:hover::after {
   width: 100%;
 }
-
 .section_menu_3 .subline span::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   background: #1158E9;
   bottom: 0;
   left: 0;
-  -webkit-transition: width .250s ease;
-  transition: width .250s ease;
+  transition: width 0.25s ease;
 }
-
 .section_menu_3 h2 {
   font-family: Dancing script, cursive;
   color: #1158E9;
 }
-
 .section_menu_3 img {
   width: 150px;
 }
 
 .section_menu_4 {
   background-color: #FDFFFD;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  flex-basis: auto;
   margin: 0 auto 80px auto;
   text-align: center;
   max-width: 750px;
   font-family: kalam, cursive;
-  -webkit-box-shadow: 0 0 7px 3px #ededed;
-          box-shadow: 0 0 7px 3px #ededed;
+  box-shadow: 0 0 7px 3px #ededed;
 }
-
 .section_menu_4 .subline span {
   position: relative;
 }
-
 .section_menu_4 .subline span:hover::after {
   width: 100%;
 }
-
 .section_menu_4 .subline span::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
   background: #61B04D;
   bottom: 0;
   left: 0;
-  -webkit-transition: width .250s ease;
-  transition: width .250s ease;
+  transition: width 0.25s ease;
 }
-
 .section_menu_4 h2 {
   font-family: kaushan script;
   color: #61B04D;
 }
-
 .section_menu_4 img {
   width: 250px;
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #579C87;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 40px;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
 .footer a {
   color: #FCCA46;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 @media screen and (min-width: 768px) {
   .footer a {
     font-size: 1.5em;
   }
 }
 
-@-webkit-keyframes shake {
-  0% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  10% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  20% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  30% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  40% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  50% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  70% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  80% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  90% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-}
-
 @keyframes shake {
   0% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   10% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   20% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   30% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   40% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   50% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   60% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   70% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   80% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   90% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   100% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
 }
-
 .footer a:hover {
-  -webkit-animation: shake 0.5s infinite;
-          animation: shake 0.5s infinite;
+  animation: shake 0.5s infinite;
 }
 
 body {
@@ -758,15 +591,9 @@ body {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #579c87;
   text-decoration: none;
   padding: 20px 0;
@@ -782,26 +609,16 @@ h3.menu_entree, h3.menu_plats, h3.menu_dessert {
 }
 
 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 0 20px;
 }
 
 li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   justify-items: baseline;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 a {
@@ -819,14 +636,9 @@ img.notemusic {
 .wrapper {
   max-width: 1024px;
   padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -841,22 +653,15 @@ img.notemusic {
   font-size: 1.2em;
   height: 40px;
   letter-spacing: 0.2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   max-width: 300px;
 }
 
 .dots {
   padding-left: 10px;
 }
-
 .dots div {
   display: inline-block;
   background: #FCCA46;
@@ -865,32 +670,16 @@ img.notemusic {
   margin-right: 10px;
   font-size: 10px;
   border-radius: 100%;
-  -webkit-animation: dots 1.5s ease-out infinite;
-          animation: dots 1.5s ease-out infinite;
+  animation: dots 1.5s ease-out infinite;
 }
-
 .dots div:nth-child(1) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
-
 .dots div:nth-child(2) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
-
 .dots div:nth-child(3) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-@-webkit-keyframes dots {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+  animation-delay: 1s;
 }
 
 @keyframes dots {
@@ -901,4 +690,5 @@ img.notemusic {
     opacity: 0;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
